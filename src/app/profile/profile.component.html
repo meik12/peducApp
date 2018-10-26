@@ -1,28 +1,89 @@
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark indigo">
+    <mdb-navbar-brand>
+        <a class="navbar-brand" href="#">SoDuc</a>
+    </mdb-navbar-brand>
+    <links>
+        <span class="navbar-text white-text">
+            <a class="nav-link waves-light" href="#" mdbWavesEffect>Home <span class="sr-only">(current)</span></a>
+        </span>
+    </links>
+</mdb-navbar>
+
+<div row><br><br></div>
 <div class="row">
-    <div class="col-md-6 blue">
-         <br>
-         <br>
-         <br>
-         <br>
-         <br>
-         <br> <br><br><br><br> <br><br><br><br> <br><br><br><br> <br><br><br>
-     
+    <div class="col-md-6">
+      <div class="row">
+     <img src="../../assets/facebookprofile2.jpg">
+     </div>
+     <div class="row" style="padding-top:150px">
+        <div class="row" style="padding-left:40px">
+            <div class="list-group">
+                <a href="#" class="list-group-item active waves-light" mdbWavesEffect>
+                    Sessions conducted
+                </a>
+                <a href="#" class="list-group-item list-group-item-action waves-light" mdbWavesEffect>
+                    <dt><u>C#</u></dt>
+                    <dd><b>title:</b> "OOP concepts by example"</dd>
+                    <dd><b>time</b>: 10/18/18 11:52:12 UTC+00</dd>
+                    <dd><b>number of attendees</b>: 2</dd>  
+                </a>
+                <a href="#" class="list-group-item list-group-item-action waves-light" mdbWavesEffect>
+                    <dt><u>OAuth2</u></dt>
+                    <dd><b>title:</b> "Understanding OAuth2"</dd>
+                    <dd><b>time</b>: 10/10/18 03:52:12 UTC+00</dd>
+                    <dd><b>number of attendees</b>: 2</dd>  
+                </a>
+                <a href="#" class="list-group-item list-group-item-action waves-light" mdbWavesEffect>
+                    <dt><u>Life skills</u></dt>
+                    <dd><b>title:</b> "No joke: Learning the tricks of standup comedy"</dd>
+                    <dd><b>time</b>: 10/10/18 03:52:12 UTC+00</dd>
+                    <dd><b>number of attendees</b>: 12</dd>  
+                </a>
+                
+            </div>
+                  </div>
+     </div>
     </div>
     <div class="col-md-6">
-        <div class="row justify-content-end"> 
-          <img src="../../assets/profile.jpg" >
+        <div class="row justify-content-end" style="padding-bottom:50px"> 
+          <div class="col-lg-6 col-md-12 mb-lg-0 mb-4">
+            <mdb-card class="testimonial-card">
+                <!--Background color-->
+                <div class="card-up info-color"></div>
+                <!--Avatar-->
+                <div class="avatar mx-auto white">
+                  <img id = "profile" src="../../assets/profile.jpg" class="rounded-circle"><img>
+                </div>
+                <mdb-card-body>
+                  <!--Name-->
+                  <h4 class="font-weight-bold mb-4">Happy Puppy Jr.</h4>
+                  <hr>
+                  <!--Quotation-->
+                  <p class="dark-grey-text mt-4">
+                    <i class="fa fa-quote-left pr-2"></i>A friendly being, with a strong passion to learn.</p>
+                </mdb-card-body>
+              </mdb-card>
+              <!--Card-->
+            </div>
+            <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
+                <app-score></app-score>
+            </div>
+            <!--Grid column-->
          </div>
-         <div class="row justify-content-end"> 
-         <h5>Happy puppy Jr.</h5>
-         </div>
-         <div class="row">
-                 <div class="col-md-6 yellow">
-                         <br><br><br><br><br><br><br><br><br><br><br> 
-                         </div>
-                         <div class="col-md-6 grey">
-                             <br><br><br><br><br><br><br><br><br><br> <br> 
-                         </div>
-         </div>
+         <div class="row" style="padding-left:40px">
+        <u><i><h3>Areas of Interest</h3></i></u>
+            <dl class="dl-horizontal" style="padding-left:40px;padding-top:20px"> 
+              <dt>Photography</dt>
+                <dd>"I have always enjoyed the tactile activities that coax nature to reveal its beauty, be it gardening, rock and gem collecting, wood working, to name a few. Photography’s similar motivation produces a visual vehicle for better understanding the world and for sharing this knowledge with others, turning us into story tellers."</dd>
+                <dt>Cosmology</dt>
+                <dd>all aspects of the Cryogenic Dark Matter Search (CDMS) experiment, in the building of balloon-borne instruments to detect minute signals from the Big Bang as imprinted on the Cosmic Microwave Background, and in the Laser Interferometer Gravitational-wave Observatory (LIGO), a network of multi-kilometer interferometers designed to search for gravitational waves.</dd>
+                <dt>JAVA web stack</dt>
+                <dd>Web Frameworks like Struts / Spring
+                    Service Oriented Architecture / Web Services - SOAP / REST
+                    Web Technologies like HTML, CSS, Javascript and JQuery
+                    Markup Languages like XML and JSON</dd>
+            </dl>
+              </div>
          <div>
              <button mdbBtn type="button" color="success" outline="true" mdbWavesEffect style="display: block; margin: 0 auto; margin-top:20px">Explore</button>
          </div>
@@ -32,9 +93,32 @@
  <!-- main row -->
  <!-- lower row -->
  <div class="row green">
-         <br>
-         <br>
-         <br><br> <br><br><br>
+   <div class="col-md-6">
+      <div class="row" style="padding-left:40px">
+          <u><h5>Sessions attended</h5></u>
+              <dl class="dl-horizontal" style="padding-left:40px;padding-top:20px"> 
+                <dt>Photography</dt>
+                  <dd></dd>
+                  <dt>Cosmology</dt>
+                  <dd></dd>
+                  <dt>JAVA web stack</dt>
+                  <dd></dd>
+              </dl>
+                </div>
+   </div>
+    <div class="col-md-6">
+        <div class="row" style="padding-left:40px">
+            <u><h5>Upcoming sessions to attend</h5></u>
+                <dl class="dl-horizontal" style="padding-left:40px;padding-top:20px"> 
+                  <dt>Photography</dt>
+                    <dd></dd>
+                    <dt>Cosmology</dt>
+                    <dd></dd>
+                    <dt>JAVA web stack</dt>
+                    <dd></dd>
+                </dl>
+                  </div>
+    </div>
      </div>
      <!-- lower row -->
 

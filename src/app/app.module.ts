@@ -8,6 +8,8 @@ import { FooterComponent } from './footer/footer.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { FacebookFrameComponent } from './facebook-frame/facebook-frame.component';
 import { ProfileComponent } from './profile/profile.component';
+import { ScoreComponent } from './score/score.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { ProfileComponent } from './profile/profile.component';
     FooterComponent,
     SidebarComponent,
     FacebookFrameComponent,
-    ProfileComponent
+    ProfileComponent,
+    ScoreComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
