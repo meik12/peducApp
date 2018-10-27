@@ -12,6 +12,9 @@ import { ScoreComponent } from './score/score.component';
 import { HomeComponent } from './home/home.component';
 import { PresentationComponent } from './presentation/presentation.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NewnavComponent } from './newnav/newnav.component';
+import { LayoutModule } from '@angular/cdk/layout';
+import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule } from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -23,13 +26,20 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ProfileComponent,
     ScoreComponent,
     HomeComponent,
-    PresentationComponent
+    PresentationComponent,
+    NewnavComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MDBBootstrapModule.forRoot(),
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    LayoutModule,
+    MatToolbarModule,
+    MatButtonModule,
+    MatSidenavModule,
+    MatIconModule,
+    MatListModule
   ],
   schemas: [ NO_ERRORS_SCHEMA ],
   providers: [],
