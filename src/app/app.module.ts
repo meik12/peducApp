@@ -10,6 +10,8 @@ import { FacebookFrameComponent } from './facebook-frame/facebook-frame.componen
 import { ProfileComponent } from './profile/profile.component';
 import { ScoreComponent } from './score/score.component';
 import { HomeComponent } from './home/home.component';
+import { PresentationComponent } from './presentation/presentation.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -20,12 +22,14 @@ import { HomeComponent } from './home/home.component';
     FacebookFrameComponent,
     ProfileComponent,
     ScoreComponent,
-    HomeComponent
+    HomeComponent,
+    PresentationComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MDBBootstrapModule.forRoot()
+    MDBBootstrapModule.forRoot(),
+    BrowserAnimationsModule
   ],
   schemas: [ NO_ERRORS_SCHEMA ],
   providers: [],
