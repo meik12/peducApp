@@ -4,14 +4,17 @@
     </mdb-navbar-brand>
     <links>
         <span class="navbar-text white-text">
-            <a class="nav-link waves-light" href="#" mdbWavesEffect>Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link waves-light" href="#" mdbWavesEffect routerLink="/home">Home <span class="sr-only">(current)</span></a>
         </span>
+        <span class="navbar-text white-text">
+                <a class="nav-link waves-light" routerLink="/landingpage" mdbWavesEffect>Logout <span class="sr-only">(current)</span></a>
+            </span>
     </links>
 </mdb-navbar>
 
-<div row><br><br></div>
-<div class="row">
-    <div class="col-md-6">
+<div class="row"><br><br></div>
+<div class="row" style="padding-left:50px">
+    <div class="col-lg-6 col-md-6">
       <div class="row">
      <img src="../../assets/facebookprofile2.jpg">
      </div>
@@ -44,7 +47,7 @@
                   </div>
      </div>
     </div>
-    <div class="col-md-6">
+    <div class="col-lg-6 col-md-6">
         <div class="row justify-content-end" style="padding-bottom:50px"> 
           <div class="col-lg-6 col-md-12 mb-lg-0 mb-4">
             <mdb-card class="testimonial-card">
@@ -120,5 +123,6 @@
                   </div>
     </div>
      </div>
+<app-footer></app-footer>
      <!-- lower row -->
 

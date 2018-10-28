@@ -1,0 +1,66 @@
+<app-navbar></app-navbar>
+<div class="wrapper">
+    <div class="row">
+        <div class="col-lg-2 col-md-2" >
+        
+            <app-sidebar></app-sidebar>
+            
+        </div>
+        <div class="col-lg-5 col-md-5" style="padding-top:20px">
+          <!-- Default form contact -->
+<form class="text-center border border-light p-5">
+
+    <p class="h4 mb-4">Advanced search</p>
+  
+    <input type="text" id="defaultContactFormTopic" class="form-control mb-4" placeholder="Topic">
+  
+    <input type="text" id="defaultContactFormKeyWord" class="form-control mb-4" placeholder="Key Word">
+
+    <input type="text"  class="form-control mb-4" placeholder="Language">
+    <input type="number"  class="form-control mb-4" placeholder="Time Zone UTC+">
+    <input type="number"  class="form-control mb-4" placeholder="Duration in Minutes">
+    <input type="text"  class="form-control mb-4" placeholder="User Name">
+    <input type="number"  class="form-control mb-4" placeholder="User Score, at least">
+
+    <button class="btn btn-info btn-block" type="submit" routerLink="/home">Search</button>
+  
+  </form>
+  <!-- Default form contact -->
+        </div>
+    <div class="col-lg-4 col-md-4" >
+        <div class="search-column">
+            <div>
+                <h5 style="padding-bottom:100px"><a routerLink="/search"><u>Advanced Search</u></a></h5>
+            </div>            
+                <h5 style="padding-bottom:20px"><a><u>Suggested for you</u></a></h5>
+                <table class="table table-striped" style="width:100%">
+                        <colgroup>
+                            <col span="1" style="width: 60%;">
+                            <col span="1" style="width: 40%;">
+                    
+                         </colgroup>
+                        <tbody>
+                        <tr>
+                            <td>Machine learning for trading: Does algorithmic trading really work for individual traders?</td>
+                            <td><b><u><a>Justing Goodman</a></u></b> <br> Score: 5/5</td>
+                        </tr>
+                    <tr>
+                            <td>Serverless Architectur</td>
+                            <td><b><u><a>Mike Bojack</a></u></b> <br> Score: 4.9/5</td>
+                        </tr>
+                        <tr>
+                                <td>Machine learning for trading: Does algorithmic trading really work for individual traders?</td>
+                                <td><b><u>Justing Goodman</u></b> <br> Score: 5/5</td>
+                            </tr>
+                            <tr>
+                                    <td>Writing comedy is hard: a practice to be embarrassed</td>
+                                    <td><b><u>Funnyguy who</u></b> <br> Score: 5/5</td>
+                                </tr>
+                        </tbody>
+                        </table>
+                        
+        </div>
+    </div>
+      
+</div>
+</div>

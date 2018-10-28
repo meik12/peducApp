@@ -15,6 +15,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NewnavComponent } from './newnav/newnav.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule } from '@angular/material';
+import { LandingpageComponent } from './landingpage/landingpage.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
+import { SearchComponent } from './search/search.component';
+import { PostpresentationComponent } from './postpresentation/postpresentation.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +32,12 @@ import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, Mat
     ScoreComponent,
     HomeComponent,
     PresentationComponent,
-    NewnavComponent
+    NewnavComponent,
+    LandingpageComponent,
+    LoginComponent,
+    RegisterComponent,
+    SearchComponent,
+    PostpresentationComponent
   ],
   imports: [
     BrowserModule,

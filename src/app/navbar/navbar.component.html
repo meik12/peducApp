@@ -1,8 +1,8 @@
 <!--Navbar-->
-<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark indigo">
+<mdb-navbar SideClass="navbar fixed-top navbar-dark indigo">
         <i class="fa sign-out" aria-hidden="true"></i>
         <!-- Navbar brand -->
-        <mdb-navbar-brand><a class="navbar-brand" href="#">SoDuc</a></mdb-navbar-brand>
+        <mdb-navbar-brand><a class="navbar-brand" routerLink="/home">SoDuc</a></mdb-navbar-brand>
     
         <!-- Collapsible content -->
         <links>
@@ -10,17 +10,17 @@
             <!-- Links -->
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link waves-light" mdbWavesEffect>Home<span class="sr-only">(current)</span></a>
+                    <a class="nav-link waves-light" routerLink="/home" mdbWavesEffect>Home<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link waves-light" mdbWavesEffect>Profile</a>
+                    <a class="nav-link waves-light" mdbWavesEffect routerLink="/profile">Profile</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link waves-light" mdbWavesEffect>My presentations</a>
                 </li>
-    
-                <!-- Dropdown -->
-               
+                <li>
+                     <button class="btn btn-outline-white btn-md my-2 my-sm-0 ml-3" type="submit" routerLink="/landingpage">UserName<br>Logout</button>
+                </li>
     
             </ul>
             <!-- Links -->
